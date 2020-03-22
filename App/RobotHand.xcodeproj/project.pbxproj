@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301FF84C241C534800691E2F /* ARControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FF84B241C534800691E2F /* ARControlView.swift */; };
+		30AC55B3241F659D001021E6 /* HandML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 30AC55B2241F659D001021E6 /* HandML.mlmodel */; };
+		30B5D878241ADCC100F4A1C1 /* HandObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5D877241ADCC100F4A1C1 /* HandObject.swift */; };
+		30B5D87A241ADF9A00F4A1C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5D879241ADF9A00F4A1C1 /* SettingsView.swift */; };
+		30B5D87C241ADFBB00F4A1C1 /* ManualControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5D87B241ADFBB00F4A1C1 /* ManualControlView.swift */; };
+		30B5D87E241ADFE200F4A1C1 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5D87D241ADFE200F4A1C1 /* Other.swift */; };
+		30BE65B9241710BE00955EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BE65B8241710BE00955EDF /* Assets.xcassets */; };
+		30E69ECC2418551C001E1490 /* GestureControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E69ECB2418551C001E1490 /* GestureControlView.swift */; };
+		AA90980424136A540073B938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90980324136A540073B938 /* AppDelegate.swift */; };
+		AA90980624136A540073B938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90980524136A540073B938 /* SceneDelegate.swift */; };
+		AA90980824136A540073B938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90980724136A540073B938 /* ContentView.swift */; };
+		AA90981024136A590073B938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA90980E24136A590073B938 /* LaunchScreen.storyboard */; };
+		AA90981824136F770073B938 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90981724136F770073B938 /* HelpView.swift */; };
+		AA90981B2413732D0073B938 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = AA90981A2413732D0073B938 /* ModalView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301FF84B241C534800691E2F /* ARControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARControlView.swift; sourceTree = "<group>"; };
+		301FF8AF241DDBB300691E2F /* RobotHand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RobotHand.entitlements; sourceTree = SOURCE_ROOT; };
+		30AC55B2241F659D001021E6 /* HandML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandML.mlmodel; sourceTree = "<group>"; };
+		30B5D877241ADCC100F4A1C1 /* HandObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandObject.swift; sourceTree = "<group>"; };
+		30B5D879241ADF9A00F4A1C1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30B5D87B241ADFBB00F4A1C1 /* ManualControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualControlView.swift; sourceTree = "<group>"; };
+		30B5D87D241ADFE200F4A1C1 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		30BE65B8241710BE00955EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E69ECB2418551C001E1490 /* GestureControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControlView.swift; sourceTree = "<group>"; };
+		AA90980024136A540073B938 /* RobotHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA90980324136A540073B938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA90980524136A540073B938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA90980724136A540073B938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA90980F24136A590073B938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA90981124136A590073B938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA90981724136F770073B938 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9097FD24136A540073B938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90981B2413732D0073B938 /* ModalView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309519A8242176C4003B03F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30BE65B8241710BE00955EDF /* Assets.xcassets */,
+				AA90980E24136A590073B938 /* LaunchScreen.storyboard */,
+				30AC55B2241F659D001021E6 /* HandML.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		309519A924217702003B03F9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AA90980324136A540073B938 /* AppDelegate.swift */,
+				AA90980524136A540073B938 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		309519AA24217714003B03F9 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				30B5D877241ADCC100F4A1C1 /* HandObject.swift */,
+				30B5D87D241ADFE200F4A1C1 /* Other.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		30B5D87F241AE15000F4A1C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA90980724136A540073B938 /* ContentView.swift */,
+				301FF84B241C534800691E2F /* ARControlView.swift */,
+				30B5D87B241ADFBB00F4A1C1 /* ManualControlView.swift */,
+				30E69ECB2418551C001E1490 /* GestureControlView.swift */,
+				AA90981724136F770073B938 /* HelpView.swift */,
+				30B5D879241ADF9A00F4A1C1 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA9097F724136A540073B938 = {
+			isa = PBXGroup;
+			children = (
+				AA90980224136A540073B938 /* RobotHand */,
+				AA90980124136A540073B938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA90980124136A540073B938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA90980024136A540073B938 /* RobotHand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA90980224136A540073B938 /* RobotHand */ = {
+			isa = PBXGroup;
+			children = (
+				309519A924217702003B03F9 /* Support */,
+				30B5D87F241AE15000F4A1C1 /* Views */,
+				309519AA24217714003B03F9 /* Logic */,
+				309519A8242176C4003B03F9 /* Resources */,
+				301FF8AF241DDBB300691E2F /* RobotHand.entitlements */,
+				AA90981124136A590073B938 /* Info.plist */,
+			);
+			path = RobotHand;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9097FF24136A540073B938 /* RobotHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA90981424136A590073B938 /* Build configuration list for PBXNativeTarget "RobotHand" */;
+			buildPhases = (
+				AA9097FC24136A540073B938 /* Sources */,
+				AA9097FD24136A540073B938 /* Frameworks */,
+				AA9097FE24136A540073B938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotHand;
+			packageProductDependencies = (
+				AA90981A2413732D0073B938 /* ModalView */,
+			);
+			productName = RobotHand;
+			productReference = AA90980024136A540073B938 /* RobotHand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9097F824136A540073B938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Christian";
+				TargetAttributes = {
+					AA9097FF24136A540073B938 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA9097FB24136A540073B938 /* Build configuration list for PBXProject "RobotHand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9097F724136A540073B938;
+			packageReferences = (
+				AA9098192413732D0073B938 /* XCRemoteSwiftPackageReference "modal-view" */,
+			);
+			productRefGroup = AA90980124136A540073B938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9097FF24136A540073B938 /* RobotHand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9097FE24136A540073B938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90981024136A590073B938 /* LaunchScreen.storyboard in Resources */,
+				30BE65B9241710BE00955EDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9097FC24136A540073B938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B5D87A241ADF9A00F4A1C1 /* SettingsView.swift in Sources */,
+				AA90980424136A540073B938 /* AppDelegate.swift in Sources */,
+				AA90981824136F770073B938 /* HelpView.swift in Sources */,
+				AA90980624136A540073B938 /* SceneDelegate.swift in Sources */,
+				30B5D87C241ADFBB00F4A1C1 /* ManualControlView.swift in Sources */,
+				30B5D878241ADCC100F4A1C1 /* HandObject.swift in Sources */,
+				30AC55B3241F659D001021E6 /* HandML.mlmodel in Sources */,
+				30B5D87E241ADFE200F4A1C1 /* Other.swift in Sources */,
+				301FF84C241C534800691E2F /* ARControlView.swift in Sources */,
+				AA90980824136A540073B938 /* ContentView.swift in Sources */,
+				30E69ECC2418551C001E1490 /* GestureControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA90980E24136A590073B938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA90980F24136A590073B938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA90981224136A590073B938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA90981324136A590073B938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA90981524136A590073B938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RobotHand/RobotHand.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RobotHand/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RobotHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christian.RobotHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA90981624136A590073B938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RobotHand/RobotHand.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RobotHand/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RobotHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = christian.RobotHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9097FB24136A540073B938 /* Build configuration list for PBXProject "RobotHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA90981224136A590073B938 /* Debug */,
+				AA90981324136A590073B938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA90981424136A590073B938 /* Build configuration list for PBXNativeTarget "RobotHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA90981524136A590073B938 /* Debug */,
+				AA90981624136A590073B938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA9098192413732D0073B938 /* XCRemoteSwiftPackageReference "modal-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/modal-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA90981A2413732D0073B938 /* ModalView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9098192413732D0073B938 /* XCRemoteSwiftPackageReference "modal-view" */;
+			productName = ModalView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA9097F824136A540073B938 /* Project object */;
+}
